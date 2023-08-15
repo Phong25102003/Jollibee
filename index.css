@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "VAGRounded Std", Sans-serif;
+}
+.logo{
+    width: 100%;
+    height: 100px;   
+    display: flex;
+    justify-content: space-between;
+    background: #D6001C;
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.logo .logo1{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 288px;
+    height: 76.5px;
+    background-image: url(image/logo.webp);
+    background-size: cover;
+}
+.logo .logo2 a{
+    text-decoration: none;
+    padding-left: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.logo .logo2 a:hover{
+    color: #FFA400;
+}
+.logo .logo2 button{
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #FFA400;
+    border: 0px;
+}
+.logo .logo2 button:hover{
+    background-color: orangered;
+}
+.logo .logo2 {
+    text-decoration: none;
+    position: relative;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.mau{
+    height: 5px;
+    background-color: #FFA400;
+}
+.banner button:hover{
+    background: orangered;
+}
+.banner{
+    margin-top: 3px;
+    width: auto;
+    height: 400px;
+    background-image: url(image/banner.webp);
+    background-size: cover;
+}
+.banner .text{
+    padding-left: 100px;
+    padding-top: 100px;
+    color: white;
+}
+.banner .text h1{
+    padding-left: 60px;
+    font-size: 50px;
+}
+.banner .text h3{
+    padding-top: 20px;
+    font-size:30px;
+    margin-right: 600px;
+}
+.banner .text h3 span{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.banner button {
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #FFA400;
+    border: 0px;
+}
+.navigo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.navigo .navigo1{
+    background-image: url(image/navigo1.webp);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-left: 200px;
+}
+.navigo .navigo1 h3{
+    padding-left: 20px;
+    padding-top: 220px;
+}
+.navigo .navigo2{
+    background-image: url(image/navigo2.webp);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.navigo .navigo2 h3{
+    padding-left: 20px;
+    padding-top: 220px;
+}
+.navigo .navigo3{
+    background-image: url(image/navigo3.webp);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-right: 200px;
+}
+.navigo .navigo3 h3{
+    padding-left: 75px;
+    padding-top: 220px;
+}
+hr{
+    margin-left: 140px;
+    margin-top: 100px;
+    width: 1000px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.content .content1{
+    background-image: url(image/content1.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.content .content2{
+    background-image: url(image/content2.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+.content .content3{
+    background-image: url(image/content3.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+.buton button{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 520px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #FFA400;
+    border: 0px;
+}
+.buton button:hover{
+    background: orangered;
+}
+.form-group4 h3{
+    margin-top: 50px;
+    background-color: #FFEAB8;
+    text-align: center;
+}
+.form-group{
+    background-color: #FFEAB8;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-group .form-group1{
+    background-color: #D6001C;
+    width: 350px;
+    height: 450px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.form-group .form-group1 .form{
+    padding-top: 40px;
+    margin-left: 25px;
+    color: white;
+    font-size: 25px;
+}
+.form-group .form-group1 .form1{
+    background-image: url(image/form_group1.webp);
+    background-size: cover;
+    width: 200px;
+    height: 230px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.form-group .form-group2{
+    background-color: #FFA400;
+    width: 350px;
+    height: 450px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-right: 43px;
+}
+.form-group .form-group2 .form{
+    padding-top: 40px;
+    margin-left: 25px;
+    color: white;
+    font-size: 25px;
+}
+.form-group .form-group2 .form1{
+    background-image: url(image/form_group2.webp);
+    background-size: contain;
+    width: 350px;
+    height: 245px;
+    margin-top: 80px;
+    margin-left: 2px;
+}
+.form-group .form-group3{
+    background-color: #009CA6;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+.form-group .form-group3 .form{
+    padding-top: 40px;
+    margin-left: 25px;
+    color: white;
+    font-size: 25px;
+}
+.form-group .form-group3 .form1{
+    background-image: url(image/form_group3.webp);
+    background-size: contain;
+    width: 240px;
+    height: 230px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.text2{
+    background-color: #FFEAB8;
+    padding-bottom: 30px;
+}
+.text2 button{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 550px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #FFA400;
+    border: 0px;
+    
+}
+.text2 button:hover{
+    background: #D6001C;
+}
+.hang{
+    background-color: #FFA400;
+    margin-top: 30px;
+    width: auto;
+    height: 3px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box .box1{
+    
+    position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 290px;
+    height: 80px;
+    background-image: url(image/logo1.webp);
+    background-size: cover;
+}
+.box .box2 button{
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #FFA400;
+    border: 0px;
+}
+.box .box2 button:hover{
+    background: #D6001C;
+}
+.member{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.member .member1{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.member .member1 i{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #D6001C;
+    padding: 3px;
+}
+.member .member2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.member .member2 a{
+    margin-top: 10px;
+    padding: 3px;
+    display: block;
+    text-decoration: none;
+    font-weight: 100;
+    color: black;
+}
+.member .member3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.member .member3 a{
+    margin-top: 10px;
+    padding: 3px;
+    display: block;
+    text-decoration: none;
+    font-weight: 100;
+    color: black;
+}
+.member .member4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.member .member4 a{
+    margin-top: 10px;
+    padding: 3px;
+    display: block;
+    text-decoration: none;
+    font-weight: 100;
+    color: black;
+}
+.member .member5{
+    font-weight: bold;
+    font-size: 20px;
+}
+.member .member5 a{
+    margin-top: 10px;
+    padding: 3px;
+    display: block;
+    text-decoration: none;
+    font-weight: 100;
+    color: black;
+}
+.member .member6{
+    margin-left: 50px;
+}
+.member .member6 .a1{
+    margin-right: 30px;
+    width: 165px;
+    height: 50px;
+    background-image: url(image/member1.webp);
+    background-size: contain;
+}
+.member .member6 .a2{
+    margin-right: 30px;
+    width: 165px;
+    height: 50px;
+    background-image: url(image/member2.webp);
+    background-size: contain;
+}
+footer{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
